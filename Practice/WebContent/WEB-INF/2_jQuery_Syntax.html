@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>2_jQuery_Syntax</title>
+</head>
+<body>
+<pre>
+The jQuery syntax is tailor-made for selecting HTML elements and performing some action on the element(s).
+
+Basic syntax is: $(selector).action()
+	A $ sign to define/access jQuery
+	A (selector) to "query (or find)" HTML elements
+	A jQuery action() to be performed on the element(s)
+
+Examples:
+	$(this).hide() - hides the current element.
+	$("p").hide() - hides all <p> elements.
+	$(".test").hide() - hides all elements with class="test".
+	$("#test").hide() - hides the element with id="test".
+	
+정리!: $(선택자).액션() 이 기본이고
+선택자에
+	1. 'this' : 기본 elemet값
+	2. 'p' : <p> elemet 값
+	3. '.' : class 값
+	4. '#' : id 값
+액션에는
+	ready 등이 있음.
+</pre>
+
+</body>
+</html>
